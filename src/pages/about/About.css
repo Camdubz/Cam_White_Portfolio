@@ -1,0 +1,65 @@
+.row-about {
+    display: flex;
+    margin-right: 200px;
+    margin-top: 100px;
+    position:relative;
+    
+}
+
+.column-about {
+    flex: 50%;
+    position: relative;
+    margin-bottom: 75px;
+}
+.column-about img {
+    height: 300px;
+    margin-left: 100px;
+   
+}
+
+@media screen and (max-width: 600px) {
+    .column-about {
+      width: 100%;
+    }
+  }
+
+  .column-about-brands {
+    float: left;
+    width: 25%;
+    
+  }
+
+  .row-about-brands:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    .column-about-brands {
+      width: 100%;
+    }
+  }
+
+  .column-about-brands img {
+    height: 25px;
+    
+  }
+
+  .row-about-brands {
+    
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .row-about-brands h2 {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+.container-about {
+    padding: 0 50px;
+    background-color: white;
+}

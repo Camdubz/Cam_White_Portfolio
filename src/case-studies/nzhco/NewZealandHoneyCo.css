@@ -1,0 +1,104 @@
+.row-nzhc {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column-nzhc {
+    flex: 25%;
+    max-width: 25%;
+    padding: 50px 40px;
+  }
+  
+  .column-nzhc img {
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column-nzhc {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column-nzhc {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+/* The side navigation menu */
+  .sidebar-nzhc {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 250px; /* Set the width of the sidebar */
+   position: absolute;
+    
+  }
+  
+  /* Sidebar links */
+  .sidebar-nzhc h1 {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  /* Sidebar links */
+  .sidebar-nzhc p {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  /* Sidebar links */
+  .sidebar-nzhc ul {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  
+ 
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  /* div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  } */
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar-nzhc {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar-nzhc a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar-nzhc a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  .main-text-area-nzhc {
+    margin-left: 200px;
+    padding: 0 300px;
+    margin-bottom: 100px;
+    
+    
+  }
+
+  .container-nzhc {
+    margin-left: 160px; /* Same as the width of the sidebar */
+  }

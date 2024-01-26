@@ -1,0 +1,25 @@
+.hero {
+  margin: auto;
+  width: 60%;
+  padding: 150px;
+  
+}
+
+.column-banner {
+    float: left;
+    width: 25%;
+    padding: 0px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+
+  .home-banner-graphic {
+    height: 800px;
+   
+  }

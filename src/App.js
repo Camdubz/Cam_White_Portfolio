@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from "./components/navbar/Navbar";
+import "./App.css";
+import Homepage from "./pages/Homepage";
+import Projects from "./pages/Projects";
+import Footer from "./components/footer/Footer";
+import A2XCase from "./case-studies/a2x/A2XCase";
+import About from "./pages/about/About";
+import Contact from "./pages/about/contact/Contact";
+import DoseCase from "./case-studies/doseandco/DoseCase";
+import BeautyNinja from "./case-studies/beautynj/BeautyNinja";
+import Sohl from "./case-studies/sohl/Sohl";
+import Thematic from "./case-studies/thematic/Thematic";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/a2xcase" element={<A2XCase />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/dosecase" element={<DoseCase />} />
+        <Route path="/beautyninja" element={<BeautyNinja />} />
+        <Route path="/sohl" element={<Sohl />} />
+        <Route path="/thematic" element={<Thematic />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
