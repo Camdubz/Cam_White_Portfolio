@@ -28,11 +28,19 @@ const Sohl = () => {
           </p>
           <h3>Technologies</h3>
           <ul>
-            'SEMrush', 'ahrefs', 'Keywords Everywhere', 'Similar Web',
-            'Quantitative Analysis (Universal Analytics, Google Data Studio)',
-            'Sheets', 'Trello', 'Influence.io', 'Sheets', 'AI Stack', Hotjar,
-            'Freelance Writing Team'
-          </ul>
+  <li>SEMrush</li>
+  <li>ahrefs</li>
+  <li>Keywords Everywhere</li>
+  <li>Similar Web</li>
+  <li>Quantitative Analysis (Universal Analytics, Google Data Studio)</li>
+  <li>Sheets</li>
+  <li>Trello</li>
+  <li>Influence.io</li>
+  <li>Sheets</li>
+  <li>AI Stack</li>
+  <li>Hotjar</li>
+  <li>Freelance Writing Team</li>
+</ul>
         </div>
         <div className="main-text-area-sohl">
           <h2>Challenge & Results</h2>

@@ -24,4 +24,12 @@
     padding-bottom: 5px;
     color: black;
     vertical-align:text-bottom
+    
+}
+
+.divider {
+    margin-bottom: 50px;
+    margin-top: 100px;
+    width: 50%;
+    opacity: 50%;
 }

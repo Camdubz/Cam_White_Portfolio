@@ -2,6 +2,7 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
+  
 }
 
 /* Add rounded corners to the top left and the top right corner of the image */
@@ -12,7 +13,8 @@ img {
 .column {
   float: left;
   width: 30%;
-  padding: 25px;
+  padding: 16px;
+ margin: 15px;
 }
 
 /* Clear floats after the columns */
@@ -35,6 +37,7 @@ img {
  align-content: center;
  position: relative;
  padding-bottom: 100px;
+ 
 }
 
 .nav-button-projects {
@@ -43,15 +46,15 @@ img {
   text-align: center;
   font-size: 1rem;
   background-color: #6366F1;
-  transition: background-color 0.3s;
+  /* transition: background-color 0.3s; */
   color: #ffffff;
-  /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); */
+   /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);  */
   border-radius: 0.4rem;
   padding-left: 1rem;
   padding-right: 1rem;
   margin-left: 1rem; /* Adjust the margin as needed */
   margin-top: 0.5rem;
-  transition-duration: 0.3s;
+  /* transition-duration: 0.3s; */
   width: 10rem;
   height: 2.5rem;
   
@@ -61,5 +64,11 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 25px;
   
+}
+
+.link-projects {
+  text-decoration: none;
+  color: black;
 }

@@ -2,13 +2,16 @@
   margin: auto;
   width: 60%;
   padding: 150px;
+ 
+  
   
 }
+
 
 .column-banner {
     float: left;
     width: 25%;
-    padding: 0px;
+    padding: 85px 0px;
   }
   
   /* Clear floats after image containers */
