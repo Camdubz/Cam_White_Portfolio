@@ -6,15 +6,15 @@ import './Projects.css'
 const Projects = () => {
   return (
     <div className="grid-container-projects">
-    <div class="row">
+    <div class="row-projects">
       <h1 className="title-projects">My Projects</h1>
       <p className="sub-text-projects">
         Explore the projects listed below to witness my skills in action
       </p>
 
-      <div class="column">
+      <div class="column-projects">
         <Link className="link-projects" to="/a2xcase">
-          <div className="card">
+          <div className="card-projects">
             <img
               src="screencapture-a2xaccounting-blog-2024-01-17-16_40_44.png"
               alt="Avatar"
@@ -30,9 +30,9 @@ const Projects = () => {
         </Link>
       </div>
 
-      <div class="column">
+      <div class="column-projects">
         <Link className="link-projects" to="/dosecase">
-          <div className="card">
+          <div className="card-projects">
             <img
               src="doseandcohome.png"
               alt="Avatar"
@@ -47,15 +47,15 @@ const Projects = () => {
           </div>
         </Link>
       </div>
-      <div class="column">
+      <div class="column-projects">
         <Link className="link-projects" to="/beautyninja">
-          <div className="card">
+          <div className="card-projects">
             <img
               src="screencapture-beauty-nj-blogs-all-blogs-2024-01-17-16_33_56.png"
               alt="Avatar"
               style={{ width: "100%" }}
             />
-            <div className="container">
+            <div className="container-projects">
               <h4>
                 <b>Beauty Ninja</b>
               </h4>
@@ -66,12 +66,12 @@ const Projects = () => {
       </div>
     </div>
 
-    <div class="row">
-      <div class="column">
+    <div class="row-projects">
+      <div class="column-projects">
         <Link className="link-projects" to="/sohl">
-          <div className="card">
+          <div className="card-projects">
             <img src="sohl-home.png" alt="Avatar" style={{ width: "100%" }} />
-            <div className="container">
+            <div className="container-projects">
               <h4>
                 <b>SOHL</b>
               </h4>
@@ -80,15 +80,15 @@ const Projects = () => {
           </div>
         </Link>
       </div>
-      <div class="column">
+      <div class="column-projects">
         <Link className="link-projects" to="/nzhco">
-          <div className="card">
+          <div className="card-projects">
             <img
               src="nzhoneyco-blog.png"
               alt="Avatar"
               style={{ width: "100%" }}
             />
-            <div className="container">
+            <div className="container-projects">
               <h4>
                 <b>NZ Honey Co.</b>
               </h4>
@@ -97,15 +97,15 @@ const Projects = () => {
           </div>
         </Link>
       </div>
-      <div class="column">
+      <div class="column-projects">
         <Link className="link-projects" to="/thematic">
-          <div className="card">
+          <div className="card-projects">
             <img
               src="measurement-marketing-process.png"
               alt="Avatar"
               style={{ width: "100%" }}
             />
-            <div className="container">
+            <div className="container-projects">
               <h4>
                 <b>Beauty Ninja</b>
               </h4>
@@ -120,12 +120,12 @@ const Projects = () => {
        
       
     </div>
-    <div class="row">
-      <div class="column">
+    <div class="row-projects">
+      <div class="column-projects">
         <Link className="link-projects" to="/vari">
-          <div className="card">
+          <div className="card-projects">
             <img src="product-details-vari.png" alt="Avatar" style={{ width: "100%" }} />
-            <div className="container">
+            <div className="container-projects">
               <h4>
                 <b>Vari</b>
               </h4>
@@ -134,15 +134,15 @@ const Projects = () => {
           </div>
         </Link>
       </div>
-      <div class="column">
+      <div class="column-projects">
         <Link className="link-projects" to="/nzhco">
-          <div className="card">
+          <div className="card-projects">
             <img
               src="nzhoneyco-blog.png"
               alt="Avatar"
               style={{ width: "100%" }}
             />
-            <div className="container">
+            <div className="container-projects">
               <h4>
                 <b>NZ Honey Co.</b>
               </h4>
@@ -151,15 +151,15 @@ const Projects = () => {
           </div>
         </Link>
       </div>
-      <div class="column">
+      <div class="column-projects">
         <Link className="link-projects" to="/thematic">
-          <div className="card">
+          <div className="card-projects">
             <img
               src="measurement-marketing-process.png"
               alt="Avatar"
               style={{ width: "100%" }}
             />
-            <div className="container">
+            <div className="container-projects">
               <h4>
                 <b>Beauty Ninja</b>
               </h4>

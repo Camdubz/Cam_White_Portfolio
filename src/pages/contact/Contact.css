@@ -1,82 +1,88 @@
-/* Style inputs, select elements and textareas */
-input[type=text], select, textarea{
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    resize: vertical;
-    
-  }
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  padding: 12px 20px;
+  font-weight: 500;
+  display: inline-block;
+  text-align: center;
+  font-size: 1rem;
+  background-color: #6366f1;
+  /* transition: background-color 0.3s; */
+  color: #ffffff;
+  /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);  */
+  border-radius: 0.4rem;
+
+  /* transition-duration: 0.3s; */
+  width: 10rem;
+  height: 2.5rem;
+}
+
+input[type="submit"]:hover {
+  font-weight: 500;
+  display: inline-block;
+  text-align: center;
+  font-size: 1rem;
+  background-color: #6366f1;
+  /* transition: background-color 0.3s; */
+  color: #ffffff;
+  /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);  */
+  border-radius: 0.4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 1rem; /* Adjust the margin as needed */
+  margin-top: 0.5rem;
+  /* transition-duration: 0.3s; */
+  width: 10rem;
+  height: 2.5rem;
+}
+
+
+.container-contact {
+  border-radius: 5px;
   
-  /* Style the label to display next to the inputs */
-  label {
-    padding: 12px 12px 12px 0;
-    display:flex;
-  }
+  padding: 10px;
   
-  /* Style the submit button */
-  input[type=submit] {
-    font-weight: 500;
-    display: inline-block;
-    text-align: center;
-    font-size: 1rem;
-    background-color: #6366F1;
-    transition: background-color 0.3s;
-    color: #ffffff;
-    /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); */
-    border-radius: 0.4rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-left: 50rem; /* Adjust the margin as needed */
-    margin-top: 0.5rem;
-    transition-duration: 0.3s;
-    width: 10rem;
-    height: 2.5rem;
-    
-  }
+}
+
+
+.column-contact {
+  float: left;
+  width: 40%;
+  margin-top: 6px;
+  padding: 50px;
   
-  
-  .contact-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start; /* Align items to the start (left) of the container */
-    width: 90%;
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-  
-  .col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-  }
-  
+    align-items: center;
+    justify-content: center;
+}
 
-  .col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
-  }
+.row-contact:after {
+  content: "";
+  display: table;
+  clear: both;
   
- 
-  .contact-row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
- 
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
+}
 
-  .contact-text {
-    flex: 1;
-    margin: 5px;
-    padding-left: 100px;
-   
+
+
+@media screen and (max-width: 600px) {
+  .column-contact,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
   }
+}

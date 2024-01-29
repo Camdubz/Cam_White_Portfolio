@@ -4,60 +4,60 @@ import { Link } from "react-router-dom";
 
 const ProjectsSection = () => {
   return (
-    <div className="grid-container">
-      <div class="row">
-        <h1 className="title-projects">My Projects</h1>
-        <p className="sub-text-projects">
+    <>
+      <div class="row-projects-main">
+        <h2 className="title-projects-main">My Projects</h2>
+        <p className="sub-text-projects-main">
           Explore the projects listed below to witness my skills in action
         </p>
 
-        <div class="column">
+        <div class="column-projects-main">
           <Link className="link-projects" to="/a2xcase">
-            <div className="card">
+            <div className="card-projects-main">
               <img
                 src="screencapture-a2xaccounting-blog-2024-01-17-16_40_44.png"
                 alt="Avatar"
                 style={{ width: "100%" }}
               />
-              <div className="container">
-                <h4>
+              <div className="container-projects-main">
+                <h3>
                   <b>A2X</b>
-                </h4>
+                </h3>
                 <p>SEO Content Marketing </p>
               </div>
             </div>
           </Link>
         </div>
 
-        <div class="column">
-          <Link className="link-projects" to="/dosecase">
-            <div className="card">
+        <div class="column-projects-main">
+          <Link className="link-projects-main" to="/dosecase">
+            <div className="card-projects-main">
               <img
                 src="doseandcohome.png"
                 alt="Avatar"
                 style={{ width: "100%" }}
               />
               <div className="container">
-                <h4>
+                <h3>
                   <b>Dose & Co</b>
-                </h4>
+                </h3>
                 <p>Integrated Marketing Communications</p>
               </div>
             </div>
           </Link>
         </div>
-        <div class="column">
-          <Link className="link-projects" to="/beautyninja">
-            <div className="card">
+        <div class="column-projects-main">
+          <Link className="link-projects-main" to="/beautyninja">
+            <div className="card-projects-main">
               <img
                 src="screencapture-beauty-nj-blogs-all-blogs-2024-01-17-16_33_56.png"
                 alt="Avatar"
                 style={{ width: "100%" }}
               />
-              <div className="container">
-                <h4>
+              <div className="container-projects-main">
+                <h3>
                   <b>Beauty Ninja</b>
-                </h4>
+                </h3>
                 <p>UX, CRO, SEO, Influencer Marketing, Affiliate Marketing</p>
               </div>
             </div>
@@ -65,61 +65,61 @@ const ProjectsSection = () => {
         </div>
       </div>
 
-      <div class="row">
-        <div class="column">
-          <Link className="link-projects" to="/sohl">
-            <div className="card">
+      <div class="row-projects-main">
+        <div class="column-projects-main">
+          <Link className="link-projects-main" to="/sohl">
+            <div className="card-projects-main">
               <img src="sohl-home.png" alt="Avatar" style={{ width: "100%" }} />
-              <div className="container">
-                <h4>
+              <div className="container-projects-main">
+                <h3>
                   <b>SOHL</b>
-                </h4>
+                </h3>
                 <p>UX/Integrated Marketing Communications</p>
               </div>
             </div>
           </Link>
         </div>
-        <div class="column">
-          <Link className="link-projects" to="/nzhco">
-            <div className="card">
+        <div class="column-projects-main">
+          <Link className="link-projects-main" to="/nzhco">
+            <div className="card-projects-main">
               <img
                 src="nzhoneyco-blog.png"
                 alt="Avatar"
                 style={{ width: "100%" }}
               />
-              <div className="container">
-                <h4>
+              <div className="container-projects-main">
+                <h3>
                   <b>NZ Honey Co.</b>
-                </h4>
+                </h3>
                 <p>CRO, SEO Content Marketing</p>
               </div>
             </div>
           </Link>
         </div>
-        <div class="column">
-          <Link className="link-projects" to="/thematic">
-            <div className="card">
+        <div class="column-projects-main">
+          <Link className="link-projects-main" to="/thematic">
+            <div className="card-projects-main">
               <img
                 src="measurement-marketing-process.png"
                 alt="Avatar"
                 style={{ width: "100%" }}
               />
-              <div className="container">
-                <h4>
+              <div className="container-projects-main">
+                <h3>
                   <b>Thematic</b>
-                </h4>
+                </h3>
                 <p>Thematic Research & Growth Analytics</p>
               </div>
             </div>
           </Link>
         </div>
       </div>
-      <div className="button-container-projects">
+      <div className="button-container-projects-main">
         <a href="/projects">
-          <button className="nav-button-projects">See more</button>
+          <button className="nav-button-projects-main">See more</button>
         </a>
       </div>
-    </div>
+      </>
   );
 };
 

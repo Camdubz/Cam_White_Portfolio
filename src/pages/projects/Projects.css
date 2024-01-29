@@ -1,74 +1,108 @@
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners */
-    
-  }
+* {
+  box-sizing: border-box;
+}
+
+.card-projects {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   
-  /* Add rounded corners to the top left and the top right corner of the image */
-  img {
-    border-radius: 5px 5px 0 0;
-  }
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img-projects-main {
+  border-radius: 5px 5px 0 0;
+}
+
+.column-projects {
+  float: left;
+  width: 33%;
+  padding: 10px 33px;
+}
+.column-projects h4 {
+  padding: 0 10px;
+}
+
+/* Clear floats after the columns */
+.row-projects:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sub-text-projects {
+  font-size: 1.3rem;
   
-  .column {
-    float: left;
-    width: 30%;
-    padding: 16px;
-   margin: 15px;
-  }
+}
+
+.row-projects {
+  margin: 0 -5px;
+}
+
+.row-projects h3{
+  padding: 0 10px;
+}
+.row-projects p {
+  padding: 5px 10px;
+ 
+}
+.row-projects h2{
+  text-align: center;
+}
+.row-projects h1{
+  text-align: center;
+}
+
+.sub-text-projects {
+  text-align: center;
   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+}
+
+.grid-container-projects{
+ align-content: center;
+ position: relative;
+ padding-bottom: 100px;
+ 
+}
+
+.nav-button-projects {
+  font-weight: 500;
+  display: inline-block;
+  text-align: center;
+  font-size: 1rem;
+  background-color: #6366F1;
+  /* transition: background-color 0.3s; */
+  color: #ffffff;
+   /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);  */
+  border-radius: 0.4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 1rem; /* Adjust the margin as needed */
+  margin-top: 0.5rem;
+  /* transition-duration: 0.3s; */
+  width: 10rem;
+  height: 2.5rem;
   
-  .title-projects {
-    text-align: center;
-    
-  }
+}
+
+.button-container-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
   
-  .sub-text-projects {
-    text-align: center;
+}
+
+.link-projects {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .column-projects {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
-  
-  .grid-container-projects {
-   align-content: center;
-   position: relative;
-   padding-bottom: 100px;
-   padding-top: 100px;
-   
-  }
-  
-  .nav-button-projects {
-    font-weight: 500;
-    display: inline-block;
-    text-align: center;
-    font-size: 1rem;
-    background-color: #6366F1;
-    /* transition: background-color 0.3s; */
-    color: #ffffff;
-     /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);  */
-    border-radius: 0.4rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-left: 1rem; /* Adjust the margin as needed */
-    margin-top: 0.5rem;
-    /* transition-duration: 0.3s; */
-    width: 10rem;
-    height: 2.5rem;
-    
-  }
-  
-  .button-container-projects {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  
-  .link-projects {
-    text-decoration: none;
-    color: black;
-  }
+}

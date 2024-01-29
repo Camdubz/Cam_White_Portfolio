@@ -1,57 +1,37 @@
-import React from 'react'
+import React from 'react';
 import './Contact.css';
 
 const Contact = () => {
-  return ( 
-    <div className="contact-container">
-         <div className="contact-text">
-    <h1>Let's chat</h1>
-    <p>Got a startup idea and need some help with rollout? Or maybe an app idea you want to bring to life? Let's chat about how I can help.</p>
-    </div>
-<form action="">
-<div class="contact-row">
-      <div class="col-25">
-        
+  return (
+    <div className="container-contact">
+      <div style={{ textAlign: 'center' }}>
+        <h2>Let's chat</h2>
+        <p>Got an app idea you want to build? Or maybe a marketing campaign? Let's chat.</p>
       </div>
-      <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="Your name.." />
-      </div>
-    </div>
-    <div class="contact-row">
-      <div class="col-25">
-        
-      </div>
-      <div class="col-75">
-        <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
-      </div>
-    </div>
-    <div class="contact-row">
-      <div class="col-25">
-        
-      </div>
-      <div class="col-75">
-        <select id="country" name="country">
-          <option value="australia">New Zealand</option>
-          <option value="canada">Australia</option>
-          <option value="usa">USA</option>
-        </select>
-      </div>
-    </div>
-    <div class="contact-row">
-      <div class="col-25">
-        
-      </div>
-      <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Tell me about your project..." style={{height: "200px"}}></textarea>
-      </div>
-    </div>
-    <div class="contact-row">
-      <input type="submit" value="Submit" />
+      <div className="row-contact">
+        <div className="column-contact">
+          <img src="/digital-marketing (2).png" style={{ width: '50%' }} alt="digital-marketing-web" />
         </div>
-      </form>
-     
+        <div className="column-contact">
+          <form action="">
+            <label htmlFor="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+            <label htmlFor="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+            <label htmlFor="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+            <label htmlFor="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style={{ height: '170px' }}></textarea>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
       </div>
-  )
-}
+    </div>
+  );
+};
 
-export default Contact
+export default Contact;
