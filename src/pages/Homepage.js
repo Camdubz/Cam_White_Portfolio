@@ -4,7 +4,7 @@ import ProjectsSection from '../components/projects-section/projectsSection'
 
 
 
-function Homepage() {
+const Homepage = () => {
   return (
     <div>
         <Header />
