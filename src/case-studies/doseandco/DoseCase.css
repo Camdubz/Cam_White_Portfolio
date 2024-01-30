@@ -1,108 +1,134 @@
 .row-dose {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 4px;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .row-dose {
+    flex-direction: column;
   }
-  
-  /* Create four equal columns that sits next to each other */
+}
+
+
+
+
+.column-dose{
+  flex: 25%;
+  max-width: 25%;
+  padding: 50px 40px;
+  justify-content: center;
+}
+
+.column-dose img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
   .column-dose {
-    flex: 25%;
-    max-width: 25%;
-    padding: 50px 40px;
+    flex: 50%;
+    max-width: 50%;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .column-dose {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.sidebar-dose {
+  flex:50%;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 250px; /* Set the width of the sidebar */
+ position: absolute;
+ margin-left: 50px;
   
-  .column-dose img {
-    margin-top: 10px;
-    vertical-align: middle;
-    width: 100%;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
-    .column-dose {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column-dose {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
-/* The side navigation menu */
+}
+
+/* Sidebar links */
+.sidebar-dose h1 {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+/* Sidebar links */
+.sidebar-dose p {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+/* Sidebar links */
+.sidebar-dose ul {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+
+
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+/* div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+} */
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
   .sidebar-dose {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 250px; /* Set the width of the sidebar */
-   position: absolute;
-    
+    flex: 100%;
+    height: auto;
+    position: relative;
+   justify-content: center;
+   width: 350px;
+   margin: 20px
   }
-  
-  /* Sidebar links */
-  .sidebar-dose h1 {
-    display: block;
-    color: black;
-    padding: 16px;
-    text-decoration: none;
-  }
-  /* Sidebar links */
-  .sidebar-dose p {
-    display: block;
-    color: black;
-    padding: 16px;
-    text-decoration: none;
-  }
-  /* Sidebar links */
-  .sidebar-dose ul {
-    display: block;
-    color: black;
-    padding: 16px;
-    text-decoration: none;
-  }
-  
-  
- 
-  
-  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-  /* div.content {
-    margin-left: 200px;
-    padding: 1px 16px;
-    height: 1000px;
-  } */
-  
-  /* On screens that are less than 700px wide, make the sidebar into a topbar */
-  @media screen and (max-width: 700px) {
-    .sidebar-dose {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .sidebar-dose a {float: left;}
-    div.content {margin-left: 0;}
-  }
-  
-  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-  @media screen and (max-width: 400px) {
-    .sidebar-dose a {
-      text-align: center;
-      float: none;
-    }
-  }
+  .sidebar-dose a {float: left;}
+  div.content {margin-left: 0;}
+}
 
-  .main-text-area-dose {
-    margin-left: 200px;
-    padding: 0 350px;
-    margin-bottom: 100px;
-    
-    
-  }
 
-  .container-dose {
-    margin-left: 160px; /* Same as the width of the sidebar */
+@media screen and (max-width: 400px) {
+  .sidebar-dose a {
+    text-align: center;
+    float: none;
   }
+}
 
-  .videodose{
-    margin-bottom: 50px;
+.main-text-area-dose {
+  margin-left: 200px;
+  padding: 0 350px;
+  margin-bottom: 100px;
+  
+  
+}
+
+@media  screen and (max-width: 700px) {
+  .main-text-area-dose{
+    flex:100%;
+    padding: 0 30px;
+    margin-left: 0px;
+    margin: 10px
   }
+}
+
+.container-dose{
+  margin-left: 160px; 
+}
+
+@media screen and (max-width:700px) {
+.videodose {
+  width: 300px;
+  height: 400px;
+}
+}

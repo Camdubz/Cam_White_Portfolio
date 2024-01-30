@@ -4,8 +4,9 @@ import "./BeautyNinja.css";
 const BeautyNinja = () => {
   return (
     <>
-      <div className="container-beautynj">
+      
         <div className="row-beautynj">
+        <h1>Beauty Ninja Case Study</h1>
           <div className="column-beautynj">
             <img src="screencapture-beauty-nj-blogs-all-blogs-2024-01-17-16_33_56.png" />
           </div>
@@ -106,17 +107,24 @@ const BeautyNinja = () => {
             list of over 100 influencers whose profiles aligned seamlessly with
             the brand's identity and metric requirements. Leveraging the brand's
             surplus of samples and the propensity of suppliers to augment
-            orders, a product exchange model was implemented. The campaign
+            orders, a product exchange model was implemented. 
+            </p>
+            <p>
+            The campaign
             followed a strategic roadmap, encompassing goal definition, audience
             identification, budget allocation, campaign type selection, social
             media platform choice, content creation, influencer identification,
             promotion, and meticulous success tracking. The results spoke
             volumes, with the campaign boasting an impressive 15% average
             conversion rate and delivering an outstanding 20x return on the
-            allocated budget. This micro-influencer collaboration not only
+            allocated budget. 
+            </p>
+
+<p>
+            This micro-influencer collaboration not only
             expanded Beauty Ninja's reach but also played a pivotal role in the
             overarching success of the brand's marketing endeavors.
-          </p>
+            </p>
 
           <p>
             Our collaborative efforts ushered in a transformative era for Beauty
@@ -129,7 +137,7 @@ const BeautyNinja = () => {
             holistic digital marketing approach.
           </p>
         </div>
-      </div>
+      
     </>
   );
 };

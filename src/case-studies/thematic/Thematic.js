@@ -4,8 +4,9 @@ import "./Thematic.css";
 const Thematic = () => {
   return (
     <>
-      <div className="container-thematic">
+      
         <div className="row-thematic">
+          <h1>Thematic Case Study</h1>
           <div className="column-thematic">
             <img src="measurement-marketing-process.png" />
           </div>
@@ -28,11 +29,15 @@ const Thematic = () => {
           </p>
           <h3>Technologies</h3>
           <ul>
-            'SEMrush', 'ahrefs', 'Keywords Everywhere', 'Similar Web',
-            'Quantitative Analysis (Universal Analytics, Google Data Studio)',
-            'Sheets', 'Trello', 'Influence.io', 'Sheets', 'AI Stack', Hotjar,
-            'Freelance Writing Team'
-          </ul>
+  <li>SEMrush</li>
+  <li>ahrefs</li>
+  <li>Similar Web</li>
+  <li>Quantitative Analysis (Universal Analytics, GA4, Google Data Studio)</li>
+  <li>Trello</li>
+  <li>Sheets</li>
+  <li>Funnel</li>
+  <li>Freelance Writing Team</li>
+</ul>
         </div>
         <div className="main-text-area-thematic">
           <h2>Challenge & Results</h2>
@@ -131,7 +136,7 @@ const Thematic = () => {
             standpoint.
           </p>
         </div>
-      </div>
+     
     </>
   );
 };

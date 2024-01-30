@@ -12,7 +12,7 @@ const Footer = () => {
       <h2>Check out my socials</h2>
       <div className="socials-block">
         <Link
-          to="https://www.linkedin.com/in/cameron-white-99b1511bb/"
+          to="https://www.linkedin.com/in/cameron-white-55b7b02aa/"
           target="_blank"
         >
           <FaLinkedin style={fontStyles} />

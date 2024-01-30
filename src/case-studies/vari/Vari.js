@@ -4,8 +4,9 @@ import "./Vari.css";
 const Vari = () => {
   return (
     <>
-      <div className="container-vari">
+     
         <div className="row-vari">
+          <h1>Varidesk (Vari) Case Study </h1>
           <div className="column-vari">
             <img src="product-details-vari.png" />
           </div>
@@ -166,7 +167,7 @@ const Vari = () => {
 
        
         </div>
-      </div>
+    
     </>
   );
 };

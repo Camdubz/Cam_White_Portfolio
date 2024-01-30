@@ -1,14 +1,25 @@
 .row-a2x {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     padding: 0 4px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  @media (max-width: 800px) {
+    .row-a2x {
+      flex-direction: column;
+    }
   }
   
-  /* Create four equal columns that sits next to each other */
+  
+  
+
   .column-a2x {
     flex: 25%;
     max-width: 25%;
     padding: 50px 40px;
+    justify-content: center;
   }
   
   .column-a2x img {
@@ -17,7 +28,6 @@
     width: 100%;
   }
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
     .column-a2x {
       flex: 50%;
@@ -25,18 +35,19 @@
     }
   }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column-a2x {
       flex: 100%;
       max-width: 100%;
     }
   }
-/* The side navigation menu */
+
   .sidebar-a2x {
+    flex:50%;
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 250px; /* Set the width of the sidebar */
    position: absolute;
+   margin-left: 50px;
     
   }
   
@@ -75,7 +86,7 @@
   /* On screens that are less than 700px wide, make the sidebar into a topbar */
   @media screen and (max-width: 700px) {
     .sidebar-a2x {
-      width: 100%;
+      flex: 100%;
       height: auto;
       position: relative;
     }
@@ -83,7 +94,7 @@
     div.content {margin-left: 0;}
   }
   
-  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+ 
   @media screen and (max-width: 400px) {
     .sidebar-a2x a {
       text-align: center;
@@ -93,12 +104,21 @@
 
   .main-text-area-a2x {
     margin-left: 200px;
-    padding: 0 200px;
+    padding: 0 350px;
     margin-bottom: 100px;
     
     
   }
 
+  @media  screen and (max-width: 700px) {
+    .main-text-area-a2x {
+      flex:100%;
+      padding: 0 30px;
+      margin-left: 0px;
+      margin: 10px
+    }
+  }
+
   .container-a2x {
-    margin-left: 160px; /* Same as the width of the sidebar */
+    margin-left: 160px; 
   }

@@ -11,22 +11,28 @@
   float: left;
   width: 50%;
   margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .column-about img {
     height: 300px;
-    margin-left: 150px;
+    
    
 }
 
 .column-about p {
     height: 300px;
     padding-right: 200px;
-   
+    text-align:start;
 }
 
 @media screen and (max-width: 600px) {
     .column-about {
       width: 100%;
+      align-items: center;
+  justify-content: center;
+  text-align: center;
       
     }
     .column-about p {
@@ -36,7 +42,7 @@
   }
   .column-about img {
     height: 300px;
-    margin-left: 45px;
+   
     
    
 }
@@ -66,14 +72,7 @@
 
     
   }
-  @media screen and (max-width: 600px) {
-    .brand-title {
-      text-align: center;
-      margin: 50px 50px 10px;
-    }
-
-    
-  }
+  
 
  
 
@@ -90,7 +89,14 @@
     text-align: center;
     margin: 150px 50px 10px;
   }
+  @media screen and (max-width: 600px) {
+    .brand-title {
+      text-align: center;
+      margin: 0px 40px 10px;
+    }
 
+    
+  }
 
 
 .column-about-brands img {

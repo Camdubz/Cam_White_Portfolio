@@ -4,8 +4,9 @@ import "./Sohl.css";
 const Sohl = () => {
   return (
     <>
-      <div className="container-sohl">
+    
         <div className="row-sohl">
+          <h1>SOHL Red Light Therapy</h1>
           <div className="column-sohl">
             <img src="sohl-home.png" />
           </div>
@@ -60,7 +61,11 @@ const Sohl = () => {
             of mine so I had a lot of fun working with her and Emily on this
             project. The visual branding took a lot of back-and-forth sifting
             through local and international designers until Tahnee (Brand
-            Manager) was happy. The end result was a contemporary visual
+            Manager) was happy. 
+            </p>
+            <p>
+            
+            The end result was a contemporary visual
             identity document that would make Apple and Equinox proud. In
             addition to the branding I suggested using 3D models instead of
             product photography. I spent 30 hours working with a 3D
@@ -139,7 +144,7 @@ const Sohl = () => {
             within identified segments.
           </p>
         </div>
-      </div>
+     
     </>
   );
 };

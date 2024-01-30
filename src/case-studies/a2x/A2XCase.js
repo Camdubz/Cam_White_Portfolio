@@ -4,8 +4,9 @@ import "./A2XCase.css";
 const A2XCase = () => {
   return (
     <>
-      <div className="container-a2x">
+     
         <div className="row-a2x">
+          <h1>A2X Case Study</h1>
           <div className="column-a2x">
             <img src="a2x-keywords.png" />
           </div>
@@ -105,7 +106,7 @@ const A2XCase = () => {
             was met.
           </p>
         </div>
-      </div>
+      
     </>
   );
 };

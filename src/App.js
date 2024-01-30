@@ -12,6 +12,7 @@ import BeautyNinja from "./case-studies/beautynj/BeautyNinja";
 import Sohl from "./case-studies/sohl/Sohl";
 import Thematic from "./case-studies/thematic/Thematic";
 import Vari from "./case-studies/vari/Vari";
+import NewZealandHoneyCo from "./case-studies/nzhco/NewZealandHoneyCo";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
         <Route path="/sohl" element={<Sohl />} />
         <Route path="/thematic" element={<Thematic />} />
         <Route path="/vari" element={<Vari />} />
+        <Route path="/nzhco" element={<NewZealandHoneyCo />} />
       </Routes>
       <Footer />
     </BrowserRouter>

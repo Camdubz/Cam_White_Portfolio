@@ -8,7 +8,9 @@ const Header = () => {
 <div className="hero-text">
             <h1>HI, I'M CAMERON</h1>
             <p>A Junior Full-Stack Developer & Marketing Expert</p>
-            <button href="CameronW - CV Template.docx.pdf" download className="btn btn-light">Download CV</button>
+            <a href="CameronW - CV Template.docx.pdf" download>
+            <button  className="btn btn-light">Download CV</button>
+            </a>
             </div>
           
       </div>
