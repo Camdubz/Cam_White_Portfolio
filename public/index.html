@@ -39,6 +39,20 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
+
     -->
+     <!-- React and ReactDOM -->
+     <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+     <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+ 
+     <!-- Your compiled JavaScript file -->
+     <script src="../src/App.js"></script>
+ 
+     <!-- Script to render your component -->
+     <script>
+       // Assuming your component is named MyComponent
+       var rootElement = document.getElementById('root');
+       ReactDOM.render(React.createElement(Homepage), rootElement);
+     </script>
   </body>
 </html>
