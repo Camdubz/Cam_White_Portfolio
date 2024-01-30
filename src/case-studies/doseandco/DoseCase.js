@@ -4,7 +4,7 @@ import "./DoseCase.css";
 const DoseCase = () => {
   return (
     <>
-      
+      <h1>Dose & Co. Case Study</h1>
         <div className="row-dose">
           <div className="column-dose">
             <img src="screencapture-instagram-doseandco-2024-01-19-14_17_58 (1).png" />

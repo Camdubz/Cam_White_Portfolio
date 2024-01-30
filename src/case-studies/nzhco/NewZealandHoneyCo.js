@@ -4,8 +4,8 @@ import "./NewZealandHoneyCo.css";
 const NewZealandHoneyCo = () => {
   return (
     <>
-      <div className="row-nzhc">
         <h1>New Zealand Honey Co.</h1>
+      <div className="row-nzhc">
         <div className="column-nzhc">
           <img src="measurement-marketing-process.png" />
         </div>

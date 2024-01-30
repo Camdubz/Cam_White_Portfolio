@@ -5,8 +5,8 @@ const Vari = () => {
   return (
     <>
      
-        <div className="row-vari">
           <h1>Varidesk (Vari) Case Study </h1>
+        <div className="row-vari">
           <div className="column-vari">
             <img src="product-details-vari.png" />
           </div>

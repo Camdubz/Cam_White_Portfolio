@@ -135,18 +135,18 @@ const Projects = () => {
         </Link>
       </div>
       <div class="column-projects">
-        <Link className="link-projects" to="/nzhco">
+        <Link className="link-projects" to="/kiwimall">
           <div className="card-projects">
             <img
-              src="nzhoneyco-blog.png"
+              src="ecommerce-home.png"
               alt="Avatar"
               style={{ width: "100%" }}
             />
             <div className="container-projects">
               <h4>
-                <b>NZ Honey Co.</b>
+                <b>Kiwi Mall</b>
               </h4>
-              <p>Thematic Research & Growth Analytics</p>
+              <p>MERN Stack Project</p>
             </div>
           </div>
         </Link>

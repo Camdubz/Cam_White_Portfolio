@@ -5,8 +5,8 @@ const Sohl = () => {
   return (
     <>
     
-        <div className="row-sohl">
           <h1>SOHL Red Light Therapy</h1>
+        <div className="row-sohl">
           <div className="column-sohl">
             <img src="sohl-home.png" />
           </div>

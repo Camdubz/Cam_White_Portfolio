@@ -5,8 +5,8 @@ const Thematic = () => {
   return (
     <>
       
-        <div className="row-thematic">
           <h1>Thematic Case Study</h1>
+        <div className="row-thematic">
           <div className="column-thematic">
             <img src="measurement-marketing-process.png" />
           </div>

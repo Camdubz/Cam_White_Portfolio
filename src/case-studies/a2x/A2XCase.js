@@ -4,9 +4,9 @@ import "./A2XCase.css";
 const A2XCase = () => {
   return (
     <>
-     
+     <h1 className="title-case-study">A2X Case Study</h1>
         <div className="row-a2x">
-          <h1>A2X Case Study</h1>
+          
           <div className="column-a2x">
             <img src="a2x-keywords.png" />
           </div>

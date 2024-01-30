@@ -5,8 +5,8 @@ const BeautyNinja = () => {
   return (
     <>
       
-        <div className="row-beautynj">
         <h1>Beauty Ninja Case Study</h1>
+        <div className="row-beautynj">
           <div className="column-beautynj">
             <img src="screencapture-beauty-nj-blogs-all-blogs-2024-01-17-16_33_56.png" />
           </div>
