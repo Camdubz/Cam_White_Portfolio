@@ -4,7 +4,7 @@ import "./NewZealandHoneyCo.css";
 const NewZealandHoneyCo = () => {
   return (
     <>
-        <h1>New Zealand Honey Co.</h1>
+      <h1 className="title-case-study">New Zealand Honey Co.</h1>
       <div className="row-nzhc">
         <div className="column-nzhc">
           <img src="measurement-marketing-process.png" />

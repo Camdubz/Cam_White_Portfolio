@@ -152,18 +152,18 @@ const Projects = () => {
         </Link>
       </div>
       <div class="column-projects">
-        <Link className="link-projects" to="/thematic">
+        <Link className="link-projects" to="/dolphinpacific">
           <div className="card-projects">
             <img
-              src="measurement-marketing-process.png"
+              src="dolphin-pacific-research.png"
               alt="Avatar"
-              style={{ width: "100%" }}
+              style={{ width: "100%", height: "350px" }}
             />
             <div className="container-projects">
               <h4>
-                <b>Beauty Ninja</b>
+                <b>Dolphin Pacific</b>
               </h4>
-              <p>UX, CRO, SEO, Influencer Marketing, Affiliate Marketing</p>
+              <p>UX, CRO, SEO, WordPress Dev, Content Marketing, Affiliate Marketing</p>
             </div>
           </div>
         </Link>

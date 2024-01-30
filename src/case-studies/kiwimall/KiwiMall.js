@@ -4,7 +4,7 @@ import "./KiwiMall.css";
 const KiwiMall = () => {
   return (
     <>
-        <h1>Varidesk (Vari) Case Study </h1>
+      <h1 className="title-case-study">Varidesk (Vari) Case Study </h1>
       <div className="row-kiwi-mall">
         <div className="column-kiwi-mall">
           <img src="ecommerce-shop-home.png" />
@@ -33,7 +33,6 @@ const KiwiMall = () => {
           <li>Express.js</li>
           <li>Tailwind</li>
           <li>MongoDB</li>
-         
         </ul>
       </div>
       <div className="main-text-area-kiwi-mall">
@@ -83,8 +82,6 @@ const KiwiMall = () => {
           of MERN stack technologies, Tailwind CSS, and user experience design
           can result in a high-quality Ecommerce platform.
         </p>
-
-       
       </div>
     </>
   );

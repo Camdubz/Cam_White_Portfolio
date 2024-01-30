@@ -14,6 +14,7 @@ import Thematic from "./case-studies/thematic/Thematic";
 import Vari from "./case-studies/vari/Vari";
 import NewZealandHoneyCo from "./case-studies/nzhco/NewZealandHoneyCo";
 import KiwiMall from "./case-studies/kiwimall/KiwiMall";
+import DolphinPacific from "./case-studies/dolphinpacific/DolphinPacific";
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
         <Route path="/vari" element={<Vari />} />
         <Route path="/nzhco" element={<NewZealandHoneyCo />} />
         <Route path="/kiwimall" element={<KiwiMall />} />
+        <Route path="/dolphinpacific" element={<DolphinPacific />} />
       </Routes>
       <Footer />
     </BrowserRouter>
