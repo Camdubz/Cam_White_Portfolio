@@ -2,10 +2,7 @@
   content: "";
   display: table;
   clear: both;
-    
 }
-
-
 
 .column-about {
   float: left;
@@ -16,55 +13,48 @@
   text-align: center;
 }
 .column-about img {
-    height: 300px;
-    
-   
+  height: 300px;
 }
 
 .column-about p {
-    height: 300px;
-    padding-right: 200px;
-    text-align:start;
+  height: 300px;
+  padding-right: 200px;
+  text-align: start;
 }
 
+.column-about-brands {
+  float: left;
+  width: 25%;
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.row-about-brands:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row-about-brands {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-  .column-about-brands {
-    float: left;
-    width: 25%;
-    margin: 20px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .row-about-brands:after {
-    content: "";
-    display: table;
-    clear: both;
-    
-  }
-  .row-about-brands {
-    margin-top: 20px;
-    margin-bottom: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap; 
-  }
-
-  .brand-title {
-    text-align: center;
-    margin: 150px 50px 10px;
-  }
- 
-
+.brand-title {
+  text-align: center;
+  margin: 150px 50px 10px;
+}
 
 .column-about-brands img {
   width: 75%;
   height: auto;
-  margin: 0 auto; 
+  margin: 0 auto;
   display: block;
 }
 
@@ -72,24 +62,17 @@
   .column-about {
     width: 100%;
     align-items: center;
-justify-content: center;
-text-align: center;
-    
+    justify-content: center;
+    text-align: center;
   }
   .column-about p {
     height: 300px;
     padding: 10px;
-   
-}
-.column-about img {
-  height: 300px;
- 
- 
-}
-.column-about-brands {
-width: 100%;
-
-}
-
-
+  }
+  .column-about img {
+    height: 300px;
+  }
+  .column-about-brands {
+    width: 100%;
+  }
 }

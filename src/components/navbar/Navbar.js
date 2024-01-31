@@ -11,7 +11,11 @@ const Navbar = () => {
         <div className="logo">
           <a href="/">
             {" "}
-            <img src="./images/logo.png" alt="Logo" style={{ height: "45px" }} />
+            <img
+              src="./images/logo.png"
+              alt="Logo"
+              style={{ height: "45px" }}
+            />
           </a>
         </div>
         <button
@@ -33,28 +37,30 @@ const Navbar = () => {
             />
           </svg>
         </button>
-        <div className={
-            isNavExpanded? "navigation-menu expanded" : "navigation-menu"
-        }>
-        <div className="nav-elements">
-          <ul>
-            <li>
-              <NavLink to="/projects"> Projects </NavLink>
-            </li>
-            <li>
-              <NavLink to="/about"> About </NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact"> Contact </NavLink>
-            </li>
-            <li>
-              <a href="/contact">
-                <button className="nav-button">Hire Me</button>
-              </a>
-            </li>
-          </ul>
+        <div
+          className={
+            isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
+          }
+        >
+          <div className="nav-elements">
+            <ul>
+              <li>
+                <NavLink to="/projects"> Projects </NavLink>
+              </li>
+              <li>
+                <NavLink to="/about"> About </NavLink>
+              </li>
+              <li>
+                <NavLink to="/contact"> Contact </NavLink>
+              </li>
+              <li>
+                <a href="/contact">
+                  <button className="nav-button">Hire Me</button>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
       </div>
     </nav>
   );

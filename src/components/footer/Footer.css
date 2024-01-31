@@ -1,42 +1,41 @@
 .footer {
-    display: flex;
-    flex-direction: column;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    color: white;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: black;
-    vertical-align:text-bottom
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+  vertical-align: text-bottom;
 }
 
 .socials-block {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    color: white;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: black;
-    vertical-align:text-bottom
-    
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+  vertical-align: text-bottom;
 }
 
 .divider {
-    margin-bottom: 50px;
-    margin-top: 50px;
-    width: 50%;
-    opacity: 30%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 50%;
+  opacity: 30%;
 }
 
 @media (max-width: 600px) {
-.footer {
-    padding: 10px
-}
+  .footer {
+    padding: 10px;
+  }
 }

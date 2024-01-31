@@ -69,7 +69,11 @@ const ProjectsSection = () => {
         <div class="column-projects-main">
           <Link className="link-projects-main" to="/sohl">
             <div className="card-projects-main">
-              <img src="./images/sohl-home.png" alt="Avatar" style={{ width: "100%" }} />
+              <img
+                src="./images/sohl-home.png"
+                alt="Avatar"
+                style={{ width: "100%" }}
+              />
               <div className="container-projects-main">
                 <h3>
                   <b>SOHL</b>
@@ -119,7 +123,7 @@ const ProjectsSection = () => {
           <button className="nav-button-projects-main">See more</button>
         </a>
       </div>
-      </>
+    </>
   );
 };
 

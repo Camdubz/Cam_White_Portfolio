@@ -50,34 +50,28 @@ input[type="submit"]:hover {
   height: 2.5rem;
 }
 
-
 .container-contact {
   border-radius: 5px;
-  
-  padding: 10px;
-  
-}
 
+  padding: 10px;
+}
 
 .column-contact {
   float: left;
   width: 40%;
   margin-top: 6px;
   padding: 50px;
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .row-contact:after {
   content: "";
   display: table;
   clear: both;
-  
 }
-
-
 
 @media screen and (max-width: 768px) {
   .column-contact,

@@ -1,19 +1,23 @@
-
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #4043A2;  
-  font-family: 'Montserrat', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #4043a2;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
@@ -21,17 +25,13 @@ h2 {
   font-size: 32px;
 }
 
-
-
 p {
-
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 18px;
-  
 }
 
 .title-case-study {
-text-align: center;
-margin-top: 100px;
+  text-align: center;
+  margin-top: 100px;
 }

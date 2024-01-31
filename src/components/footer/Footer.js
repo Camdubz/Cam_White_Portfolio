@@ -17,10 +17,7 @@ const Footer = () => {
         >
           <FaLinkedin style={fontStyles} />
         </Link>
-        <Link
-          to="https://github.com/Camdubz"
-          target="_blank"
-        >
+        <Link to="https://github.com/Camdubz" target="_blank">
           <FaGithub style={fontStyles} />
         </Link>
       </div>
