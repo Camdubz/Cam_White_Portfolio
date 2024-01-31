@@ -7,13 +7,13 @@ const A2XCase = () => {
       <h1 className="title-case-study">A2X Case Study</h1>
       <div className="row-a2x">
         <div className="column-a2x">
-          <img src="a2x-keywords.png" />
+          <img src="./images/a2x-keywords.png" />
         </div>
         <div className="column-a2x">
-          <img src="screencapture-a2xaccounting-blog-2024-01-19-13_00_14.png" />
+          <img src="./images/screencapture-a2xaccounting-blog-2024-01-19-13_00_14.png" />
         </div>
         <div className="column-a2x">
-          <img src="screencapture-a2xaccounting-blog-shopify-pos-accounting-quickbooks-xero-a2x-2024-01-19-12_54_47.png" />
+          <img src="./images/screencapture-a2xaccounting-blog-shopify-pos-accounting-quickbooks-xero-a2x-2024-01-19-12_54_47.png" />
         </div>
       </div>
       <div class="sidebar-a2x">

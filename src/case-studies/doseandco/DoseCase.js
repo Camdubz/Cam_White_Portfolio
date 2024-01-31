@@ -7,13 +7,13 @@ const DoseCase = () => {
       <h1 className="title-case-study">Dose & Co. Case Study</h1>
       <div className="row-dose">
         <div className="column-dose">
-          <img src="screencapture-instagram-doseandco-2024-01-19-14_17_58 (1).png" />
+          <img src="./images/screencapture-instagram-doseandco-2024-01-19-14_17_58 (1).png" />
         </div>
         <div className="column-dose">
-          <img src="screencapture-nz-doseandco-products-vanilla-collagen-creamer-2024-01-19-14_10_12.png" />
+          <img src="./images/screencapture-nz-doseandco-products-vanilla-collagen-creamer-2024-01-19-14_10_12.png" />
         </div>
         <div className="column-dose">
-          <img src="dose-herald-pr.png" />
+          <img src="./images/dose-herald-pr.png" />
         </div>
       </div>
       <div class="sidebar-dose">
@@ -101,7 +101,7 @@ const DoseCase = () => {
         </p>
         <video className="videodose" width="600" height="400" controls>
           <source
-            src="Dose and Co_ Plant Based Protein Powders - Collagen Creamers.mp4"
+            src="./videos/Dose and Co_ Plant Based Protein Powders - Collagen Creamers.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.

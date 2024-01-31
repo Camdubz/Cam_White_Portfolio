@@ -15,7 +15,7 @@ const ProjectsSection = () => {
           <Link className="link-projects" to="/a2xcase">
             <div className="card-projects-main">
               <img
-                src="screencapture-a2xaccounting-blog-2024-01-17-16_40_44.png"
+                src="./images/screencapture-a2xaccounting-blog-2024-01-17-16_40_44.png"
                 alt="Avatar"
                 style={{ width: "100%" }}
               />
@@ -33,7 +33,7 @@ const ProjectsSection = () => {
           <Link className="link-projects-main" to="/dosecase">
             <div className="card-projects-main">
               <img
-                src="doseandcohome.png"
+                src="./images/doseandcohome.png"
                 alt="Avatar"
                 style={{ width: "100%" }}
               />
@@ -50,7 +50,7 @@ const ProjectsSection = () => {
           <Link className="link-projects-main" to="/beautyninja">
             <div className="card-projects-main">
               <img
-                src="screencapture-beauty-nj-blogs-all-blogs-2024-01-17-16_33_56.png"
+                src="./images/screencapture-beauty-nj-blogs-all-blogs-2024-01-17-16_33_56.png"
                 alt="Avatar"
                 style={{ width: "100%" }}
               />
@@ -69,7 +69,7 @@ const ProjectsSection = () => {
         <div class="column-projects-main">
           <Link className="link-projects-main" to="/sohl">
             <div className="card-projects-main">
-              <img src="sohl-home.png" alt="Avatar" style={{ width: "100%" }} />
+              <img src="./images/sohl-home.png" alt="Avatar" style={{ width: "100%" }} />
               <div className="container-projects-main">
                 <h3>
                   <b>SOHL</b>
@@ -83,7 +83,7 @@ const ProjectsSection = () => {
           <Link className="link-projects-main" to="/nzhco">
             <div className="card-projects-main">
               <img
-                src="nzhoneyco-blog.png"
+                src="./images/nzhoneyco-blog.png"
                 alt="Avatar"
                 style={{ width: "100%" }}
               />
@@ -100,7 +100,7 @@ const ProjectsSection = () => {
           <Link className="link-projects-main" to="/thematic">
             <div className="card-projects-main">
               <img
-                src="measurement-marketing-process.png"
+                src="./images/measurement-marketing-process.png"
                 alt="Avatar"
                 style={{ width: "100%" }}
               />

@@ -10,7 +10,7 @@ const Contact = () => {
       </div>
       <div className="row-contact">
         <div className="column-contact">
-          <img src="/digital-marketing (2).png" style={{ width: '50%' }} alt="digital-marketing-web" />
+          <img src="./images/digital-marketing (2).png" style={{ width: '50%' }} alt="digital-marketing-web" />
         </div>
         <div className="column-contact">
           <form action="">

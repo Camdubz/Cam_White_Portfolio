@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="logo">
           <a href="/">
             {" "}
-            <img src="logo.png" alt="Logo" style={{ height: "45px" }} />
+            <img src="./images/logo.png" alt="Logo" style={{ height: "45px" }} />
           </a>
         </div>
         <button

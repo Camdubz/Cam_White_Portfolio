@@ -16,7 +16,7 @@ const Projects = () => {
         <Link className="link-projects" to="/a2xcase">
           <div className="card-projects">
             <img
-              src="screencapture-a2xaccounting-blog-2024-01-17-16_40_44.png"
+              src="./images/screencapture-a2xaccounting-blog-2024-01-17-16_40_44.png"
               alt="Avatar"
               style={{ width: "100%" }}
             />
@@ -34,7 +34,7 @@ const Projects = () => {
         <Link className="link-projects" to="/dosecase">
           <div className="card-projects">
             <img
-              src="doseandcohome.png"
+              src="./images/doseandcohome.png"
               alt="Avatar"
               style={{ width: "100%" }}
             />
@@ -51,7 +51,7 @@ const Projects = () => {
         <Link className="link-projects" to="/beautyninja">
           <div className="card-projects">
             <img
-              src="screencapture-beauty-nj-blogs-all-blogs-2024-01-17-16_33_56.png"
+              src="./images/screencapture-beauty-nj-blogs-all-blogs-2024-01-17-16_33_56.png"
               alt="Avatar"
               style={{ width: "100%" }}
             />
@@ -70,7 +70,7 @@ const Projects = () => {
       <div class="column-projects">
         <Link className="link-projects" to="/sohl">
           <div className="card-projects">
-            <img src="sohl-home.png" alt="Avatar" style={{ width: "100%" }} />
+            <img src="./images/sohl-home.png" alt="Avatar" style={{ width: "100%" }} />
             <div className="container-projects">
               <h4>
                 <b>SOHL</b>
@@ -84,7 +84,7 @@ const Projects = () => {
         <Link className="link-projects" to="/nzhco">
           <div className="card-projects">
             <img
-              src="nzhoneyco-blog.png"
+              src="./images/nzhoneyco-blog.png"
               alt="Avatar"
               style={{ width: "100%" }}
             />
@@ -101,7 +101,7 @@ const Projects = () => {
         <Link className="link-projects" to="/thematic">
           <div className="card-projects">
             <img
-              src="measurement-marketing-process.png"
+              src="./images/measurement-marketing-process.png"
               alt="Avatar"
               style={{ width: "100%" }}
             />
@@ -124,7 +124,7 @@ const Projects = () => {
       <div class="column-projects">
         <Link className="link-projects" to="/vari">
           <div className="card-projects">
-            <img src="product-details-vari.png" alt="Avatar" style={{ width: "100%" }} />
+            <img src="./images/product-details-vari.png" alt="Avatar" style={{ width: "100%" }} />
             <div className="container-projects">
               <h4>
                 <b>Vari</b>
@@ -138,7 +138,7 @@ const Projects = () => {
         <Link className="link-projects" to="/kiwimall">
           <div className="card-projects">
             <img
-              src="ecommerce-home.png"
+              src="./images/ecommerce-home.png"
               alt="Avatar"
               style={{ width: "100%" }}
             />
@@ -155,7 +155,7 @@ const Projects = () => {
         <Link className="link-projects" to="/dolphinpacific">
           <div className="card-projects">
             <img
-              src="dolphin-pacific-research.png"
+              src="./images/dolphin-pacific-research.png"
               alt="Avatar"
               style={{ width: "100%", height: "350px" }}
             />

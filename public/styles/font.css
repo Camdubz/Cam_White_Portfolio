@@ -1,0 +1,26 @@
+@import "./_variables.css";
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary);  
+    font-family: var(--heading1);
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 32px;
+  }
+  
+  
+  
+  p {
+  
+    font-family: var(--paragraph-font-family);
+    font-weight: normal;
+    font-size: 18px;
+    
+  }
+  
+  .title-case-study {
+  text-align: center;
+  margin-top: 100px;
+  }

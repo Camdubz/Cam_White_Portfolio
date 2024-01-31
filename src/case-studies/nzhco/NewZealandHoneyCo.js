@@ -7,13 +7,13 @@ const NewZealandHoneyCo = () => {
       <h1 className="title-case-study">New Zealand Honey Co.</h1>
       <div className="row-nzhc">
         <div className="column-nzhc">
-          <img src="measurement-marketing-process.png" />
+          <img src="./images/measurement-marketing-process.png" />
         </div>
         <div className="column-nzhc">
-          <img src="nzhoneyco-blog.png" />
+          <img src="./images/nzhoneyco-blog.png" />
         </div>
         <div className="column-nzhc">
-          <img src="home-nzhc.png" />
+          <img src="./images/home-nzhc.png" />
         </div>
       </div>
       <div class="sidebar-nzhc">

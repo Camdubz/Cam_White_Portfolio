@@ -7,13 +7,13 @@ const Vari = () => {
       <h1 className="title-case-study">Varidesk (Vari) Case Study </h1>
       <div className="row-vari">
         <div className="column-vari">
-          <img src="product-details-vari.png" />
+          <img src="./images/product-details-vari.png" />
         </div>
         <div className="column-vari">
-          <img src="resource-vari.png" />
+          <img src="./images/resource-vari.png" />
         </div>
         <div className="column-vari">
-          <img src="linkedin-vari.png" />
+          <img src="./images/linkedin-vari.png" />
         </div>
       </div>
       <div class="sidebar-vari">

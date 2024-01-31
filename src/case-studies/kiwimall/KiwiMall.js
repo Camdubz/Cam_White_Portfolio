@@ -7,13 +7,13 @@ const KiwiMall = () => {
       <h1 className="title-case-study">Varidesk (Vari) Case Study </h1>
       <div className="row-kiwi-mall">
         <div className="column-kiwi-mall">
-          <img src="ecommerce-shop-home.png" />
+          <img src="./images/ecommerce-shop-home.png" />
         </div>
         <div className="column-kiwi-mall">
-          <img src="ecommerce-shop-details.png" />
+          <img src="./images/ecommerce-shop-details.png" />
         </div>
         <div className="column-kiwi-mall">
-          <img src="ecommerce-shop-sign-in.png" />
+          <img src="./images/ecommerce-shop-sign-in.png" />
         </div>
       </div>
       <div class="sidebar-kiwi-mall">

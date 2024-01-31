@@ -3,14 +3,12 @@
 }
 
 .card-projects-main {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  border-radius: 5px; /* 5px rounded corners */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Add rounded corners to the top left and the top right corner of the image */
 img-projects-main {
   border-radius: 5px 5px 0 0;
 }
@@ -21,7 +19,6 @@ img-projects-main {
   padding: 10px 33px;
 }
 
-/* Clear floats after the columns */
 .row-projects-main:after {
   content: "";
   display: table;
@@ -30,34 +27,31 @@ img-projects-main {
 
 .sub-text-projects-main {
   font-size: 1.3rem;
-  
 }
 
 .row-projects-main {
   margin: 0 -5px;
 }
 
-.row-projects-main h3{
+.row-projects-main h3 {
   padding: 0 10px;
 }
-.row-projects-main p{
+.row-projects-main p {
   padding: 10px 10px;
-  padding: 10px 33px;
+ 
 }
-.row-projects-main h2{
+.row-projects-main h2 {
   text-align: center;
 }
 
 .sub-text-projects-main {
   text-align: center;
-  
 }
 
 .grid-container-projects-main {
- align-content: center;
- position: relative;
- padding-bottom: 100px;
- 
+  align-content: center;
+  position: relative;
+  padding-bottom: 100px;
 }
 
 .nav-button-projects-main {
@@ -65,19 +59,18 @@ img-projects-main {
   display: inline-block;
   text-align: center;
   font-size: 1rem;
-  background-color: #6366F1;
-  /* transition: background-color 0.3s; */
+  background-color: #6366f1;
+
   color: #ffffff;
-   /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);  */
+
   border-radius: 0.4rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  margin-left: 1rem; /* Adjust the margin as needed */
+  margin-left: 1rem;
   margin-top: 0.5rem;
-  /* transition-duration: 0.3s; */
+
   width: 10rem;
   height: 2.5rem;
-  
 }
 
 .button-container-projects-main {
@@ -85,7 +78,6 @@ img-projects-main {
   justify-content: center;
   align-items: center;
   margin-top: 25px;
-  
 }
 
 .link-projects-main {
