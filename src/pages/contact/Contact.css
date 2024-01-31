@@ -37,15 +37,15 @@ input[type="submit"]:hover {
   text-align: center;
   font-size: 1rem;
   background-color: #6366f1;
-  /* transition: background-color 0.3s; */
+
   color: #ffffff;
-  /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);  */
+
   border-radius: 0.4rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  margin-left: 1rem; /* Adjust the margin as needed */
+  margin-left: 1rem;
   margin-top: 0.5rem;
-  /* transition-duration: 0.3s; */
+
   width: 10rem;
   height: 2.5rem;
 }
@@ -79,7 +79,14 @@ input[type="submit"]:hover {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+  .column-contact,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 1440px) {
   .column-contact,
   input[type="submit"] {
     width: 100%;

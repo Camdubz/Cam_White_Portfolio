@@ -7,10 +7,10 @@
   }
 
   @media (max-width: 800px) {
-    .row-a2x {
-      flex-direction: column;
-    }
+
+
   }
+
   
   
   
@@ -28,12 +28,7 @@
     width: 100%;
   }
   
-  @media screen and (max-width: 800px) {
-    .column-a2x {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
+ 
   
   @media screen and (max-width: 600px) {
     .column-a2x {
@@ -41,6 +36,7 @@
       max-width: 100%;
     }
   }
+
 
   .sidebar-a2x {
     flex:50%;
@@ -73,26 +69,7 @@
     text-decoration: none;
   }
   
-  
  
-  
-  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-  /* div.content {
-    margin-left: 200px;
-    padding: 1px 16px;
-    height: 1000px;
-  } */
-  
-  /* On screens that are less than 700px wide, make the sidebar into a topbar */
-  @media screen and (max-width: 700px) {
-    .sidebar-a2x {
-      flex: 100%;
-      height: auto;
-      position: relative;
-    }
-    .sidebar-a2x a {float: left;}
-    div.content {margin-left: 0;}
-  }
   
  
   @media screen and (max-width: 400px) {
@@ -110,12 +87,52 @@
     
   }
 
-  @media  screen and (max-width: 700px) {
+  @media  screen and (max-width: 768px) {
     .main-text-area-a2x {
       flex:100%;
       padding: 0 30px;
       margin-left: 0px;
       margin: 10px
+    }
+    .sidebar-a2x {
+      flex: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar-a2x a {float: left;}
+    div.content {margin-left: 0;}
+    .row-a2x {
+      flex-direction: column;
+      margin: 0 10px
+    }
+    .column-a2x {
+      flex: 1000%;
+      max-width: 100%;
+    }
+  }
+
+  @media  screen and (max-width: 1440px) {
+    .main-text-area-a2x {
+      flex:100%;
+      padding: 0px 30px;
+      padding-bottom: 0px;
+      margin-left: 0px;
+      margin: 40px;
+      
+    }
+    .row-a2x {
+      flex-direction: column;
+      margin: 0 0px;
+    }
+    .column-a2x {
+      flex: 1000%;
+      max-width: 100%;
+    }
+    .sidebar-a2x {
+      flex: 100%;
+      height: auto;
+      position: relative;
+      width: 70%;
     }
   }
 

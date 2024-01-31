@@ -27,26 +27,7 @@
     text-align:start;
 }
 
-@media screen and (max-width: 600px) {
-    .column-about {
-      width: 100%;
-      align-items: center;
-  justify-content: center;
-  text-align: center;
-      
-    }
-    .column-about p {
-      height: 300px;
-      padding: 10px;
-     
-  }
-  .column-about img {
-    height: 300px;
-   
-    
-   
-}
-  }
+
 
   .column-about-brands {
     float: left;
@@ -64,18 +45,6 @@
     clear: both;
     
   }
-
-  @media screen and (max-width: 600px) {
-    .column-about-brands {
-      width: 100%;
-    }
-
-    
-  }
-  
-
- 
-
   .row-about-brands {
     margin-top: 20px;
     margin-bottom: 100px;
@@ -89,14 +58,7 @@
     text-align: center;
     margin: 150px 50px 10px;
   }
-  @media screen and (max-width: 600px) {
-    .brand-title {
-      text-align: center;
-      margin: 0px 40px 10px;
-    }
-
-    
-  }
+ 
 
 
 .column-about-brands img {
@@ -104,4 +66,30 @@
   height: auto;
   margin: 0 auto; 
   display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .column-about {
+    width: 100%;
+    align-items: center;
+justify-content: center;
+text-align: center;
+    
+  }
+  .column-about p {
+    height: 300px;
+    padding: 10px;
+   
+}
+.column-about img {
+  height: 300px;
+ 
+ 
+}
+.column-about-brands {
+width: 100%;
+
+}
+
+
 }

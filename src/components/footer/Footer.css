@@ -34,3 +34,9 @@
     width: 50%;
     opacity: 30%;
 }
+
+@media (max-width: 600px) {
+.footer {
+    padding: 10px
+}
+}
