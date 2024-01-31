@@ -66,7 +66,7 @@ const DoseCase = () => {
           Drawing upon the personas and her unique research methodology, Emily
           successfully crafted a seamless product-message fit. In the
           development of the high-fidelity wireframe using Figma, I integrated
-          both the branding documents and UX Research.{" "}
+          both the branding documents and my UX Research.{" "}
         </p>
         <p>
           {" "}
@@ -80,8 +80,8 @@ const DoseCase = () => {
           Qualitative aspects involved understanding the motivations behind
           collagen product purchases and identifying pain points experienced by
           collagen customers. Synthesizing this research, I constructed a
-          Customer Journey Map (CJM) delineating the anticipated steps a
-          customer takes when purchasing a Dose & Co. product.{" "}
+          Customer Journey Map (CJM) delineating the anticipated steps, thoughts
+          and feelings when purchasing a Dose & Co. product.{" "}
         </p>
         <p>
           {" "}
@@ -187,12 +187,12 @@ const DoseCase = () => {
           lever.
         </p>
         <p>
-          Notably, over 60% of Dose & Co. sales within the initial 12 months
-          were attributed to Instagram, showcasing Libby's adept networking
-          skills within the influencer community. Employing discount codes to
-          track and attribute sales accurately, we compensated freelancers with
-          a mix of free products and monetary rewards based on audience size and
-          quality.
+          Notably, over 60% of Dose & Co. digital sales within the initial 12
+          months were attributed to Instagram, showcasing Libby's adept
+          networking skills within the influencer community. Employing discount
+          codes to track and attribute sales accurately, we compensated
+          freelancers with a mix of free products and monetary rewards based on
+          audience size and quality.
         </p>
         <p>
           Though my initial involvement in the influencer campaign was limited,
@@ -204,17 +204,13 @@ const DoseCase = () => {
           {" "}
           I orchestrated a robust media buying strategy, spearheading the
           implementation of Google text ads with targeted clusters of
-          high-converting keywords and brand terms. Complementing this, Google
-          Shopping Ads exhibited a commendable 10% conversion rate, resulting in
-          $200,000 in revenue over three months.
+          high-converting keywords and brand terms.
         </p>
         <p>
           Expanding our reach, I executed retargeting on Facebook and Instagram
-          using email lists and cookies, yielding $300,000 in sales after three
-          months with an impressive 20% conversion rate. Employing Klaviyo for
-          the Remarketing campaign, I integrated advanced cart/prospect recovery
-          automations, SMS marketing, welcome flows, newsletter flows, and
-          content flows.
+          using email lists and cookies. Employing Klaviyo for the Remarketing
+          campaign, I integrated advanced cart/prospect recovery automations,
+          SMS marketing, welcome flows, newsletter flows, and content flows.
         </p>
         <p>
           Our email marketing initiatives, contributing to one million in sales,
@@ -247,9 +243,9 @@ const DoseCase = () => {
           at various points in the customer journey, and combining these
           insights with quantitative data. The objective was to optimize sales,
           improve customer retention, elevate NPS and CSAT, all while
-          considering UX and CRO perspectives. Alongside this, I aimed to scale
-          media buying channels and integrate additional avenues into the
-          customer acquisition strategy.
+          considering UX and CRO KPIs. Alongside this, I aimed to scale media
+          buying channels and integrate additional channels and CJS
+          optimizations usinng the AARRR model.
         </p>
         <p>
           Building on the success of influencer marketing and PR, I sought to

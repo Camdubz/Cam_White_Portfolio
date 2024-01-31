@@ -95,32 +95,35 @@ const Thematic = () => {
           aligned with industry standards but also stood out as innovative and
           valuable.
         </p>
+        <p>
+          Qualtrics was an especially interesting sales & marketing funnel to
+          decompose. Their content marketing is among the best in the game,
+          demonstrating the need for large multi-segmented funnels with free
+          value and influencial partnerships when selling expensive products.
+        </p>
 
         <p>
           My goal of revenue optimization came into sharper focus through the
           integration of GTM, Looker, and GA4. Armed with a 360-degree view of
           our sales funnel and insights from competitor research, I identified
           bottlenecks, fine-tuned conversion points, and tailored campaigns for
-          maximum revenue generation.
+          maximum revenue optimization.
         </p>
 
         <p>
-          I created SOPs for carrying out the campaign which included briefing
-          articles, using AI+Editors for writing, scheduling and publishing,
-          syndicating to publishers, script creation, storyboarding, freelance
-          video editors, social media syndication, social media content,
-          automated video scheduling, short vs long videos, influencers, PR
-          agency selection and management, influencer management, remarketing,
-          retargeting and measurement.
+          I created SOPs for carrying out the growth marketing which included
+          product-message fit (by Rachel Rennie and Emily Tehrase by my
+          recommendation), a range of different channels, content, referral and
+          repurchase optimizations. All of my recommendations were based off my
+          research into five big players in their vertical and two outside their
+          vertical and were ordered by customer journney stages.
         </p>
 
         <p>
           The bedrock of my success lay in the establishment of a unified and
           truthful data source. By prioritizing data consistency and accuracy
           across every marketing channel, I eliminated discrepancies and built a
-          foundation of trust in our analytics. Google Sheets emerged as my
-          collaborative canvas, facilitating seamless data management and
-          analysis.
+          foundation of trust in our analytics. 
         </p>
 
         <p>
@@ -128,8 +131,8 @@ const Thematic = () => {
           GA4, and Sheets, stands as a testament to the transformative power of
           technology and research. I didn't just achieve channel synergy and
           revenue optimization; I crafted a unified, trustworthy data source
-          that propelled them forward. This account reflects the impact of a
-          well-executed growth marketing analytics strategy, demonstrating how I
+          that propelled Thematic forward. This account reflects the impact of a
+          well-executed growth marketing research and analytics strategy, demonstrating how I
           navigated the complexities of the digital landscape, conducted
           in-depth competitor research, and positioned Thematic for enduring
           success from a competitive and analytical standpoint.
