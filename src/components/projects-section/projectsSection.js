@@ -16,7 +16,7 @@ const ProjectsSection = () => {
             <div className="card-projects-main">
               <img
                 src="./images/screencapture-a2xaccounting-blog-2024-01-17-16_40_44.png"
-                alt="a2x-image"
+                alt="avatar"
                 style={{ width: "100%" }}
               />
               <div className="container-projects-main">

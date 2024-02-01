@@ -6,7 +6,7 @@ const About = () => {
     <>
       <div class="row-about">
         <div class="column-about">
-          <img src="./images/cam-headshot.jpeg" />
+          <img src="./images/cam-headshot.jpeg"  alt=""/>
         </div>
         <div class="column-about">
           <p>
@@ -24,28 +24,28 @@ const About = () => {
       </>
       <div class="row-about-brands">
         <div class="column-about-brands">
-          <img src="./images/doselogo.png" />
+          <img src="./images/doselogo.png" alt="" />
         </div>
         <div class="column-about-brands">
-          <img src="./images/thematic-logo.png" />
+          <img src="./images/thematic-logo.png" alt="" />
         </div>
         <div class="column-about-brands">
-          <img src="./images/sohl-logo.png" />
+          <img src="./images/sohl-logo.png"  alt=""/>
         </div>
         <div class="column-about-brands">
-          <img src="./images/nzhco-logo.png" />
+          <img src="./images/nzhco-logo.png"  alt=""/>
         </div>
         <div class="column-about-brands">
-          <img src="./images/pandp-logo.png" />
+          <img src="./images/pandp-logo.png"  alt=""/>
         </div>
         <div class="column-about-brands">
-          <img src="./images/beauty-nj-logo.png" />
+          <img src="./images/beauty-nj-logo.png"  alt=""/>
         </div>
         <div class="column-about-brands">
-          <img src="./images/vari-logo.png" />
+          <img src="./images/vari-logo.png"  alt=""/>
         </div>
         <div class="column-about-brands">
-          <img src="./images/dolphinpacific-logo.png" />
+          <img src="./images/dolphinpacific-logo.png"  alt=""/>
         </div>
       </div>
     </>
