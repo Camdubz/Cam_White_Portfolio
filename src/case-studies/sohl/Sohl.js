@@ -7,13 +7,13 @@ const Sohl = () => {
       <h1 className="title-case-study">SOHL Red Light Therapy</h1>
       <div className="row-sohl">
         <div className="column-sohl">
-          <img src="./images/sohl-home.png" />
+          <img src="./images/sohl-home.png"  alt=""/>
         </div>
         <div className="column-sohl">
-          <img src="./images/screencapture-sohl-global-collections-all-products-products-sohl-complete-sw1080-2024-01-23-14_35_47.png" />
+          <img src="./images/screencapture-sohl-global-collections-all-products-products-sohl-complete-sw1080-2024-01-23-14_35_47.png"  alt=""/>
         </div>
         <div className="column-sohl">
-          <img src="./images/sohl-blog.png" />
+          <img src="./images/sohl-blog.png"  alt=""/>
         </div>
       </div>
       <div class="sidebar-sohl">

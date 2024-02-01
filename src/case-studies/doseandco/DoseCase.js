@@ -7,13 +7,13 @@ const DoseCase = () => {
       <h1 className="title-case-study">Dose & Co. Case Study</h1>
       <div className="row-dose">
         <div className="column-dose">
-          <img src="./images/screencapture-instagram-doseandco-2024-01-19-14_17_58 (1).png" />
+          <img src="./images/screencapture-instagram-doseandco-2024-01-19-14_17_58 (1).png"  alt=""/>
         </div>
         <div className="column-dose">
-          <img src="./images/screencapture-nz-doseandco-products-vanilla-collagen-creamer-2024-01-19-14_10_12.png" />
+          <img src="./images/screencapture-nz-doseandco-products-vanilla-collagen-creamer-2024-01-19-14_10_12.png"  alt=""/>
         </div>
         <div className="column-dose">
-          <img src="./images/dose-herald-pr.png" />
+          <img src="./images/dose-herald-pr.png"  alt=""/>
         </div>
       </div>
       <div class="sidebar-dose">

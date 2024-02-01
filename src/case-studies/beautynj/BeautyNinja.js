@@ -7,13 +7,13 @@ const BeautyNinja = () => {
       <h1 className="title-case-study">Beauty Ninja Case Study</h1>
       <div className="row-beautynj">
         <div className="column-beautynj">
-          <img src="./images/screencapture-beauty-nj-blogs-all-blogs-2024-01-17-16_33_56.png" />
+          <img src="./images/screencapture-beauty-nj-blogs-all-blogs-2024-01-17-16_33_56.png"  alt=""/>
         </div>
         <div className="column-beautynj">
-          <img src="./images/screencapture-instagram-beauty-ninja-jp-2024-01-21-17_46_33.png" />
+          <img src="./images/screencapture-instagram-beauty-ninja-jp-2024-01-21-17_46_33.png"  alt=""/>
         </div>
         <div className="column-beautynj">
-          <img src="./images/cj-affiliate-beuty-nj.png" />
+          <img src="./images/cj-affiliate-beuty-nj.png"  alt=""/>
         </div>
       </div>
       <div class="sidebar-beautynj">

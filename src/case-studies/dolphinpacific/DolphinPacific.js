@@ -7,13 +7,13 @@ const DolphinPacific = () => {
       <h1 className="title-case-study">Dolphin Pacific Case Study </h1>
       <div className="row-dolphinpacific">
         <div className="column-dolphinpacific">
-          <img src="./images/dolphin-pacific-home.png" />
+          <img src="./images/dolphin-pacific-home.png"  alt=""/>
         </div>
         <div className="column-dolphinpacific">
-          <img src="./images/dolphin-pacific-speed.jpeg" />
+          <img src="./images/dolphin-pacific-speed.jpeg"  alt=""/>
         </div>
         <div className="column-dolphinpacific">
-          <img src="./images/dolphin-pacific-blogpost.png" />
+          <img src="./images/dolphin-pacific-blogpost.png"  alt=""/>
         </div>
       </div>
       <div class="sidebar-dolphinpacific">

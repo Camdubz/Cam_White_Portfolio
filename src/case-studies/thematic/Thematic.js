@@ -7,13 +7,13 @@ const Thematic = () => {
       <h1 className="title-case-study">Thematic Case Study</h1>
       <div className="row-thematic">
         <div className="column-thematic">
-          <img src="./images/measurement-marketing-process.png" />
+          <img src="./images/measurement-marketing-process.png"  alt=""/>
         </div>
         <div className="column-thematic">
-          <img src="./images/thematic-home.png" />
+          <img src="./images/thematic-home.png"  alt=""/>
         </div>
         <div className="column-thematic">
-          <img src="./images/thematic-blog.png" />
+          <img src="./images/thematic-blog.png"  alt=""/>
         </div>
       </div>
       <div class="sidebar-thematic">

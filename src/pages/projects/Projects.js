@@ -1,5 +1,4 @@
 import React from "react";
-import ProjectsSection from "../../components/projects-section/projectsSection";
 import { Link } from "react-router-dom";
 import "./Projects.css";
 
