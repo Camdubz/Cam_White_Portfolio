@@ -7,14 +7,13 @@ const Contact = () => {
       <div style={{ textAlign: "center" }}>
         <h2>Let's chat</h2>
         <p>
-          Got an app idea you want to build? Or maybe a marketing campaign?
-          Let's chat.
+        Fill this out, and we’ll get back to you faster than a seagull stealing your chips. Promise.
         </p>
       </div>
       <div className="row-contact">
         <div className="column-contact">
           <img
-            src="./images/digital-marketing (2).png"
+            src="./images/seagull-chips.png"
             style={{ width: "50%" }}
             alt="digital-marketing-web"
           />
@@ -37,9 +36,9 @@ const Contact = () => {
             />
             <label htmlFor="country">Country</label>
             <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
+              <option value="auckland">Auckland</option>
+              <option value="wellington">Wellington</option>
+              <option value="hamilton">Hamilton</option>
             </select>
             <label htmlFor="subject">Subject</label>
             <textarea
