@@ -12,7 +12,7 @@ const Navbar = () => {
           <a href="/">
             {" "}
             <img
-              src="./images/logo.png"
+              src="./images/searchmate-logo.png"
               alt="Logo"
               style={{ height: "45px" }}
             />
