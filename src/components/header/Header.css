@@ -1,3 +1,5 @@
+
+
 .hero-container {
   height: 600px;
   padding: 20px;
@@ -13,8 +15,9 @@
 }
 
 .hero-container img {
-  width: 40%;
-  height: 700px;
+  height: 300px;
+  margin-top: 15%;
+
 }
 
 .hero-text {
