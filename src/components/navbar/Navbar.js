@@ -8,16 +8,6 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <div className="logo">
-          <a href="/">
-            {" "}
-            <img
-              src="./images/searchmate-logo.png"
-              alt="Logo"
-              style={{ height: "45px" }}
-            />
-          </a>
-        </div>
         <button
           className="hamburger"
           onClick={() => {
@@ -43,6 +33,16 @@ const Navbar = () => {
           }
         >
           <div className="nav-elements">
+          <div className="logo">
+          <a href="/">
+            {" "}
+            <img
+              src="./images/searchmate-logo.png"
+              alt="Logo"
+              style={{ height: "45px" }}
+            />
+          </a>
+          </div>
             <ul>
               <li>
                 <NavLink to="/projects"> Projects </NavLink>
@@ -53,12 +53,12 @@ const Navbar = () => {
               <li>
                 <NavLink to="/contact"> Contact </NavLink>
               </li>
-              <li>
-                <a href="/contact">
+            </ul>
+            <div>
+            <a href="/contact">
                   <button className="nav-button">Hire Me</button>
                 </a>
-              </li>
-            </ul>
+                </div>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ const Header = () => {
     <div className="hero-container">
       <img
         className="home-banner-graphic"
-        src="./images/meat-pie-kiwi.png"
+        src="./images/meat-pie.png"
         alt="banner home svg"
       />
       <div className="hero-text">
