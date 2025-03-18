@@ -14,7 +14,7 @@ const Contact = () => {
         <div className="column-contact">
           <img
             src="./images/seagull-chips.png"
-            style={{ width: "50%" }}
+            style={{ width: "80%" }}
             alt="digital-marketing-web"
           />
         </div>
@@ -38,7 +38,7 @@ const Contact = () => {
             <select id="country" name="country">
               <option value="auckland">Auckland</option>
               <option value="wellington">Wellington</option>
-              <option value="hamilton">Hamilton</option>
+              <option value="hamilton">Hamilton (Our deepest sympathies… but hey, at least your SEO is about to get better!)</option>
             </select>
             <label htmlFor="subject">Subject</label>
             <textarea

@@ -6,7 +6,7 @@ const ProjectsSection = () => {
   return (
     <>
       <div class="row-projects-main">
-        <h2 className="title-projects-main">My Projects</h2>
+        <h2 className="title-projects-main">Portfolio</h2>
         <p className="sub-text-projects-main">
           Explore the projects listed below to witness my skills in action
         </p>

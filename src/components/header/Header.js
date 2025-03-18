@@ -12,7 +12,7 @@ const Header = () => {
       <div className="hero-text">
         <h1>Your SEO is like a soggy pie: Technically edible, but no one’s bragging.</h1>
         <p>We’ll bake up a strategy so crisp, even Google asks for seconds. </p>
-        <a href="./downloads/CameronW - CV Template.docx.pdf" download>
+        <a href="./downloads/pricing-chart-searchmate.pdf" download>
           <button className="btn btn-light">Serve Me Crispy SEO </button>
         </a>
       </div>

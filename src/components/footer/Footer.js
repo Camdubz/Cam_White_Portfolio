@@ -21,7 +21,7 @@ const Footer = () => {
           <FaGithub style={fontStyles} />
         </Link>
       </div>
-      <p>Cameron White web dev and marketing expert 2024</p>
+      <p>Searchmate® All Rights Reserved 2025</p>
     </div>
   );
 };
