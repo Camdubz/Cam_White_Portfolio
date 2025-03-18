@@ -10,12 +10,15 @@ const About = () => {
         </div>
         <div class="column-about">
           <p>
-            Passionate about full-stack web development and side projects.
-            Strong interest in PR, marketing strategy, AI Martech, and
-            Integrated Marketing Communications. Outside of tech, I enjoy
-            playing football. <br></br> <br></br>I have a strong interest in
-            mental and physical health and enjoy finding new things to add to my
-            health stack.
+          I’m Cameron — the SEO expert who delivers results as enduring as the Briscoes lady’s skincare routine. 
+          While NZ food prices might force you to mortgage a block of cheese, my services won’t. 
+          Think of me as the no bullshit SEO — all the quality, none of the $28 colby panic.
+          <br/><br/>
+          “She’ll be right” works for lost jandals, but not for SEO. Leave it to chance, and your site could end up as 
+          “alright” as a Wellington picnic on a bad day. 
+          <br/><br/>
+          As the sole owner, operator, and certified overthinker of 
+          meta descriptions, I’m here to make your brand world-famous in New Zealand.
           </p>
         </div>
       </div>
