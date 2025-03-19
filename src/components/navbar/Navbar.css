@@ -32,6 +32,7 @@ body {
   justify-content: space-between;
   list-style-type: none;
   align-items: center;
+  
 }
 
 .nav-elements ul li:not(:last-child) {
@@ -39,9 +40,9 @@ body {
 }
 
 .nav-elements ul a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
-  color: #2f234f;
+  color: #333333;
   text-decoration: none;
 }
 
@@ -87,7 +88,7 @@ body {
   width: 40px;
   padding: 0.5rem;
   border-radius: 50%;
-  background-color: #6366f1;
+  background-color: #333333;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
 
@@ -98,7 +99,78 @@ body {
   display: none;
 }
 .hamburger:hover {
-  background-color: #6366f1;
+  background-color: #333333;
+}
+
+@media screen and (max-width: 1440px) {
+  .hamburger {
+    display: block;
+    margin-right: 0.5rem;
+  }
+  .nav-container {
+    margin: 0 40px;
+  }
+  .nav-elements ul {
+    display: none;
+    padding-top: 10px;
+  }
+  .nav-elements ul {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 77px);
+    background-color: white;
+    border-top: 1px solid black;
+    display: none;
+    
+  }
+  .nav-elements li {
+    text-align: center;
+    margin-top: 5%;
+  }
+  .nav-elements li a {
+    color: black;
+
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .nav-elements li:hover {
+    background-color: #eee;
+  }
+  .navigation-menu.expanded ul {
+    display: block;
+  }
+  .nav-button {
+    display: none;
+  }
+  .logo {
+    padding-left: 0%;
+    margin-top: 1rem;
+  }
+  .nav-elements ul li:not(:last-child) {
+    margin-right: 0px;
+  }
+  .nav-button-li{
+    font-weight: 500;
+    display: inline-block;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #333333;
+    transition: background-color 0.3s;
+    color: #ffffff;
+    /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); */
+    border-radius: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem; /* Adjust the margin as needed */
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+    transition-duration: 0.3s;
+    width: 10rem;
+    height: 2.5rem;
+  }
 }
 
 
@@ -115,6 +187,7 @@ body {
   }
   .hamburger {
     display: block;
+    margin-right: 0.5rem;
   }
   .nav-elements ul {
     display: none;
@@ -133,64 +206,52 @@ body {
   }
   .nav-elements li {
     text-align: center;
-    margin: 10px;
+    margin-top: 5%;
+ 
   }
   .nav-elements li a {
     color: black;
-
     width: 100%;
     padding: 1.5rem 0;
+    
   }
   .nav-elements li:hover {
     background-color: #eee;
   }
   .navigation-menu.expanded ul {
     display: block;
+   
   }
   .nav-button {
     display: none;
   }
-}
-
-@media screen and (max-width: 1440px) {
-  .hamburger {
-    display: block;
+  .nav-elements ul li:not(:last-child) {
+    margin-right: 0px;
   }
-  .nav-container {
-    margin: 0 40px;
+  .nav-elements ul li{
+    align-items: center;
   }
-  .nav-elements ul {
-    display: none;
-    padding-top: 10px;
+  .logo {
+    padding-left: 0%;
+    margin-top: 1.2rem;
   }
-  .nav-elements ul {
-    position: absolute;
-    top: 60px;
-    left: 0;
-    flex-direction: column;
-    width: 100%;
-    height: calc(100vh - 77px);
-    background-color: white;
-    border-top: 1px solid black;
-    display: none;
-  }
-  .nav-elements li {
+  .nav-button-li{
+    font-weight: 500;
+    display: inline-block;
     text-align: center;
-    margin: 10px;
-  }
-  .nav-elements li a {
-    color: black;
-
-    width: 100%;
-    padding: 1.5rem 0;
-  }
-  .nav-elements li:hover {
-    background-color: #eee;
-  }
-  .navigation-menu.expanded ul {
-    display: block;
-  }
-  .nav-button {
-    display: none;
+    font-size: 1rem;
+    background-color: #333333;
+    transition: background-color 0.3s;
+    color: #ffffff;
+    /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); */
+    border-radius: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem; /* Adjust the margin as needed */
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+    transition-duration: 0.3s;
+    width: 10rem;
+    height: 2.5rem;
   }
 }
