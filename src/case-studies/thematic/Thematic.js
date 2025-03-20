@@ -137,6 +137,11 @@ const Thematic = () => {
           in-depth competitor research, and positioned Thematic for enduring
           success from a competitive and analytical standpoint.
         </p>
+        <div className="button-container-dose">
+        <a href="/vari">
+          <button className="next-case">Next case study</button>
+        </a>
+      </div>
       </div>
     </>
   );

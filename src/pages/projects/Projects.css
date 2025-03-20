@@ -55,8 +55,7 @@ img-projects-main {
 
 .grid-container-projects {
   align-content: center;
-
-  position: relative;
+  /* position: relative; */
   padding-bottom: 100px;
 }
 

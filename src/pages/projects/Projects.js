@@ -110,7 +110,7 @@ const Projects = () => {
               />
               <div className="container-projects">
                 <h4>
-                  <b>Beauty Ninja</b>
+                  <b>Thematic</b>
                 </h4>
                 <p>UX, CRO, SEO, Influencer Marketing, Affiliate Marketing</p>
               </div>
@@ -137,7 +137,7 @@ const Projects = () => {
             </div>
           </Link>
         </div>
-        <div class="column-projects">
+        {/* <div class="column-projects">
           <Link className="link-projects" to="/kiwimall">
             <div className="card-projects">
               <img
@@ -153,7 +153,7 @@ const Projects = () => {
               </div>
             </div>
           </Link>
-        </div>
+        </div> */}
         <div class="column-projects">
           <Link className="link-projects" to="/dolphinpacific">
             <div className="card-projects">

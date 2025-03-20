@@ -134,6 +134,11 @@ const BeautyNinja = () => {
           digital beauty landscape, underscoring the tangible impact of a
           holistic digital marketing approach.
         </p>
+        <div className="button-container-bn">
+        <a href="/sohl">
+          <button className="next-case">Next case study</button>
+        </a>
+      </div>
       </div>
     </>
   );

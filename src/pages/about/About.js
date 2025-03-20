@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <>
+    <div class="about-container">
       <div class="row-about">
         <div class="column-about">
           <img src="./images/cam-headshot.jpeg"  alt=""/>
@@ -51,7 +51,7 @@ const About = () => {
           <img src="./images/dolphinpacific-logo.png"  alt=""/>
         </div>
       </div>
-    </>
+      </div>
   );
 };
 

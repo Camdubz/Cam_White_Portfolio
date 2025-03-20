@@ -102,6 +102,11 @@ const A2XCase = () => {
           The ultimate goal of taking hold of the Ecommerce digital segment was
           met.
         </p>
+        <div className="button-container-dose">
+        <a href="/dosecase">
+          <button className="next-case">Next case study</button>
+        </a>
+      </div>
       </div>
     </>
   );

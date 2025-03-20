@@ -45,17 +45,27 @@ const Navbar = () => {
           </div>
             <ul>
               <li>
-                <NavLink to="/projects">Projects</NavLink>
+                <NavLink 
+                  to="/projects"
+                  onClick={() => setIsNavExpanded(false)}
+                  >Projects</NavLink>
               </li>
               <li>
-                <NavLink to="/about">About</NavLink>
+                <NavLink 
+                  to="/about"
+                  onClick={() => setIsNavExpanded(false)}
+                  >About</NavLink>
               </li>
               <li>
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink 
+                  to="/contact"
+                  onClick={() => setIsNavExpanded(false)}
+                  >Contact</NavLink>
               </li>
               <li>
               <a href="/contact">
-                  <button className="nav-button-li">Hire Me</button>
+                  <button className="nav-button-li"
+                    >Hire Me</button>
                 </a>
                 </li>
             </ul>

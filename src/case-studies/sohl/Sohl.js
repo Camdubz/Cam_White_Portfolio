@@ -139,6 +139,11 @@ const Sohl = () => {
           SOHL as a prominent player, achieving product-market fit within
           identified segments.
         </p>
+        <div className="button-container-dose">
+        <a href="/nzhco">
+          <button className="next-case">Next case study</button>
+        </a>
+      </div>
       </div>
     </>
   );

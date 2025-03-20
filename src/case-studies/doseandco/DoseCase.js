@@ -261,6 +261,11 @@ const DoseCase = () => {
           story.{" "}
         </p>{" "}
         <br />
+        <div className="button-container-dose">
+        <a href="/beautyninja">
+          <button className="next-case">Next case study</button>
+        </a>
+      </div>
       </div>
     </>
   );
