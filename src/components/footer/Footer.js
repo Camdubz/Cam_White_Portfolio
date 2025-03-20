@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const fontStyles = { color: "#d3d3d3", fontSize: "60px" };

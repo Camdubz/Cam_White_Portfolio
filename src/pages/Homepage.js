@@ -7,8 +7,8 @@ import ProjectsSection from '../components/projects-section/projectsSection'
 const Homepage = () => {
   return (
     <div>
-        <Header />
-       <ProjectsSection />
+      <Header />
+      <ProjectsSection />
     </div>
     
   )
