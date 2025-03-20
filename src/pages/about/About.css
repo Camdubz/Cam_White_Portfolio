@@ -1,3 +1,12 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+.about-container{
+  margin: 0 50px;;
+}
+
+
 .row-about:after {
   content: "";
   display: table;

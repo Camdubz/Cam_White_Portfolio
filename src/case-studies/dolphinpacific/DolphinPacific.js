@@ -120,6 +120,11 @@ const DolphinPacific = () => {
           navigating external pressures, reinforcing the importance of aligning
           marketing efforts with long-term business goals for sustained success.
         </p>
+        <div className="button-container-bn">
+        <a href="/a2xcase">
+          <button className="next-case">Next case study</button>
+        </a>
+      </div>
       </div>
     </>
   );

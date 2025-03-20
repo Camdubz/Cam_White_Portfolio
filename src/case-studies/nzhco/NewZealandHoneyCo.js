@@ -115,6 +115,11 @@ const NewZealandHoneyCo = () => {
           success story stands as a testament to the importance of research,
           analytics, and creativity in driving digital marketing success.
         </p>
+        <div className="button-container-dose">
+        <a href="/thematic">
+          <button className="next-case">Next case study</button>
+        </a>
+      </div>
       </div>
     </>
   );

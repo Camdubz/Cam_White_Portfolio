@@ -160,6 +160,11 @@ const Vari = () => {
           world of ergonomic solutions.
         </p>
         <p>Unfortunately Vari is no longer opperating in New Zealand.</p>
+        <div className="button-container-dose">
+        <a href="/dolphinpacific">
+          <button className="next-case">Next case study</button>
+        </a>
+      </div>
       </div>
     </>
   );

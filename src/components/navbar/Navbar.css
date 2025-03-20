@@ -82,6 +82,10 @@ body {
   height: 2.5rem;
 }
 
+.nav-button-li{
+  display: none;
+}
+
 .hamburger {
   border: 0;
   height: 40px;
