@@ -125,7 +125,7 @@ body {
     width: 100%;
     height: calc(100vh - 77px);
     background-color: white;
-    border-top: 1px solid black;
+    /* border-top: 1px solid black; */
     display: none;
     
   }
@@ -203,7 +203,7 @@ body {
     width: 100%;
     height: calc(100vh - 77px);
     background-color: white;
-    border-top: 0.5px solid black;
+    /* border-top: 0.5px solid black; */
     display: none;
   }
   .nav-elements li {
@@ -235,8 +235,8 @@ body {
     align-items: center;
   }
   .logo {
-    padding-left: 0%;
     margin-top: 1.2rem;
+    margin-right: 50%;
   }
   .nav-button-li{
     font-weight: 500;
@@ -250,7 +250,7 @@ body {
     border-radius: 0.4rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-left: 3rem; /* Adjust the margin as needed */
+    margin-left: 3rem; 
     margin-top: 0.5rem;
     margin-right: 3rem;
     transition-duration: 0.3s;
