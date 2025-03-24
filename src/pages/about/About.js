@@ -23,9 +23,11 @@ const About = () => {
         </div>
       </div>
       <>
-        <h2 className="brand-title">Brands I've worked with</h2>
+        
       </>
+      <h2 className="brand-title">Brands I've worked with</h2>
       <div class="row-about-brands">
+      
         <div class="column-about-brands">
           <img src="./images/doselogo.png" alt="" />
         </div>
