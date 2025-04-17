@@ -6,10 +6,10 @@ const Header = () => {
     <div className="hero-container">
      
       <div className="hero-text">
-        <h1>Your SEO is like a soggy pie: Technically edible, but no one’s bragging.</h1>
-        <p>We’ll bake up a strategy so crisp, even Google asks for seconds. </p>
+        <h1>Your growth strategy is like a soggy pie: Technically edible but no one’s bragging.</h1>
+        <p>We’ll cook up a marketing and sales strategy so crisp, your competitors will be begging for the recipe. </p>
         <a href="./downloads/pricing-chart-searchmate.pdf" download>
-          <button className="btn btn-light">Serve Me Crispy SEO </button>
+          <button className="btn btn-light">Serve me crispy growth </button>
         </a>
       </div>
        <img
